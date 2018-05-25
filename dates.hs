@@ -11,7 +11,7 @@ data Date =
 
 instance Eq DayOfWeek where
   (==) Mon Mon = True 
-  (==) Tue Tue = True 
+ (==) Tue Tue = True 
   (==) Weds Weds = True
   (==) Thu Thu = True
   (==) Fri Fri = True
